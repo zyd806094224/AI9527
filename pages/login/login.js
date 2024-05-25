@@ -1,4 +1,7 @@
 //index.js
+
+const config = require("../../utils/config")
+
 //获取应用实例
 const app = getApp()
 let username = ''
@@ -48,7 +51,7 @@ Page({
             })
         } else {
             wx.request({
-                url: 'http://127.0.0.1:80/user/login',
+                url: `${config.httpBaseUrl}/user/login`,
                 method: "get",
                 data: {
                     "username": username,
