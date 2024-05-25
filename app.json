@@ -6,8 +6,10 @@
     ],
     "window": {
         "navigationBarTextStyle": "black",
-        "navigationStyle": "custom",
-        "enablePullDownRefresh": true
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "智能助手",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json",
