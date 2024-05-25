@@ -121,9 +121,6 @@ Page({
         })
         // console.log( new Date());
         // console.log(wx.getStorageSync('username'));
-
-
-
         wx.onSocketOpen((res) => {
             socketOpen = true
             console.log("打开socket");
