@@ -30,6 +30,8 @@ page {
   .leftMsg {
     font-size: 35rpx;
     color: #444;
+    word-wrap: break-word;
+    max-width: 450rpx;
     line-height: 7vw;
     padding: 2vw 2.5vw;
     background-color: #fff;
