@@ -20,7 +20,7 @@
         "list": [
             {
                 "pagePath": "pages/index/index",
-                "text": "主页",
+                "text": "文生图",
                 "iconPath": "/images/首页-置灰.png",
                 "selectedIconPath": "/images/首页.png"
             },

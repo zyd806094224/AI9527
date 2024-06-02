@@ -8,3 +8,33 @@ page {
   flex: 1;
   overflow-y: hidden;
 }
+
+.textarea {
+    flex: 1;
+    margin-top: 20rpx;
+    margin-left: 15rpx;
+    margin-right: 10rpx;
+    border: 1rpx solid #999999;
+    border-radius: 8rpx;
+    padding: 10rpx;
+    max-height: 200rpx;
+}
+
+.button {
+    margin-top: 180rpx;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: solid 1rpx #999999;
+    border-radius: 8rpx;
+    margin-right: 10rpx;
+    color: #00ff00;
+    padding: 5rpx;
+}
+
+.img {
+    margin-top: 20rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+    border: solid 1rpx #999999;
+    border-radius: 8rpx;
+}

@@ -1,6 +1,14 @@
 <!--index.wxml-->
 <scroll-view class="scrollarea" scroll-y type="list">
-  <view class="container" bind:tap="testClick">
-    Weixin
+  <view style="display: flex; flex-direction: column;">
+    <text style="color: #00ff00;">下方输入想要生成的图片提示词</text>
+    <view style="display: flex; flex-direction: row;">
+        <textarea class="textarea" bindblur="bindTextAreaBlur" placeholder="请输入">
+    </textarea>
+    <text class="button" bind:tap="generateImg">生成图片</text>
+    </view>
+    <view style="display: flex;">
+        <image class="img" src="{{imageUrl}}" mode="aspectFit"></image>
+    </view>
   </view>
 </scroll-view>

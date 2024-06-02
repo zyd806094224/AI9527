@@ -133,7 +133,7 @@ Page({
             })
             socketMsgQueue = []
             wx.onSocketMessage((result) => {
-                result.data = result.data.replace(" ", "&nbsp;");
+                // result.data = result.data.replace(" ", "&nbsp;");
                 console.log(result.data);
                 // console.log(result.data+"--->"+result.data.length+"--->"+  result.data.charAt(result.data.length-1).charCodeAt())
                 curAnsCount++;
